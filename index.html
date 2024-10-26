@@ -54,5 +54,56 @@
             </div>
         </section>
 
+        <!-- Sektion: Kommande aktiviteter -->
+        <section class="coming-activities">
+            <h2> Kommande Aktiviteter</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3 class="event-title">Event Titel 1</h3>
+                    <p class="event-date">Dag, Datum</p>
+                    <p class="event-time">Tid</p>
+                </div>
+                <div class="card">
+                    <h3 class="event-title">Event Titel 2</h3>
+                    <p class="event-date">Dag, Datum</p>
+                    <p class="event-time">Tid</p>
+                </div>
+                <div class="card">
+                    <h3 class="event-title">Event Titel 3</h3>
+                    <p class="event-date">Dag, Datum</p>
+                    <p class="event-time">Tid</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Admin Login -->
+        <section class="admin-login">
+            <h2>Admin Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+        
+
+        <!-- Admin interface -->
+         <section class="admin-interface" style="display: none;">
+            <h2>Admin Interface</h2>
+            <form id="admin-form">
+                <label for="event-title">Aktivitet Titel:</label>
+                <input type="text" id="event-title" name="event-title" required>
+                <label for="event-date">Datum:</label>
+                <input type="date" id="event-date" name="event-date" required>
+                <label for="event-time">Tid:</label>
+                <input type="text" id="event-time" name="event-time" required>
+                <button type="submit">Uppdatera aktivitetet</button>
+            </form>
+         </section>
+
+         <scrpt src="js/admin.js"></script>
+
     </body>
 </html>

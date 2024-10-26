@@ -135,12 +135,13 @@ nav ul li:hover {
     height: calc(100vh - 60px);
     width: 100%;
     background-color: white;
+    padding-top: 50px;
 }
 
 .content-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     justify-content: center;
     position: relative;
@@ -190,7 +191,7 @@ nav ul li:hover {
 .center-logo {
     width: 350px;
     height: auto;
-    margin-top: -430px;
+    margin-top: -390px;
 }
 .description-text {
     text-align: center;
@@ -199,3 +200,47 @@ nav ul li:hover {
     padding: 0 20px;
     font-size: 1.2rem;
 }
+
+
+/* New section: Kommande aktiviteter */
+.coming-activities {
+    padding: 50px 20px;
+    background-color: #83C5BE;
+    text-align: center;
+}
+
+.coming-activities h2 {
+    font-size: 2rem;
+    font-family: 'Inika', serif;
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    font-family: 'Inika', serif;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    font-family: 'Inika', serif;
+    margin-bottom: 5px;
+}
+
+
+/* Admin login */
