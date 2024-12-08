@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Interface</title>
+</head>
+<body>
+    <h1>Admin Interface</h1>
+    <form action="/admin/update" method="POST">
+        <label for="event-title">Event Titel:</label>
+        <input type="text" id="event-title" name="event-title" required><br>
+        <label for="event-date">Datum:</label>
+        <input type="date" id="event-date" name="event-date" required><br>
+        <label for="event-time">Tid:</label>
+        <input type="text" id="event-time" name="event-time" required><br>
+        <button type="submit">Uppdatera Aktivitet</button>
+    </form>
+</body>
+</html>
