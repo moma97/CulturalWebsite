@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt');
 const db = require('./db/db');
 
 const username = 'admin';
-const password = 'password'; // Change this to a more secure password
+const password = 'password'; 
 
 bcrypt.hash(password, 10, (err, hash) => {
     if (err) {
